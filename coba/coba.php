@@ -1,1 +1,0 @@
-!coba/index.php
