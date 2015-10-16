@@ -1,2 +1,1 @@
-!coba/index.php
-asd
+ini diubah tgl 16

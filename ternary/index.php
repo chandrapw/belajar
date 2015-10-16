@@ -69,4 +69,37 @@ $asd = ($abc == 1 ? 'benar' : $abc == null);
 echo $asd;
 
 echo '<br />';
+echo 'Fungsi Shorthand';
+echo '<br />';
+echo '<br />';
 
+for ($x=1; $x <= 5; $x++):
+   echo $x;
+   echo '<br />';
+endfor;
+
+echo '<br />';
+
+$aray = [1,2,3,4];
+foreach ($aray as $value):
+   echo $value;
+   echo '<br />';
+endforeach;
+
+echo '<br />';
+
+class bob {
+
+public function isDebug(){
+    return true;
+}
+
+public function debug(){
+        echo 'yes dice!!!';
+    }
+}
+
+
+$bob = new bob(); 
+
+($bob->isDebug()) && $bob->debug(); 
